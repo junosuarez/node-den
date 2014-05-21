@@ -1,0 +1,20 @@
+{
+  "name": "den",
+  "version": "0.0.0",
+  "description": "bridge from streams to promises",
+  "repository": "git@github.com:jden/node-den.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "jden <jason@denizac.org>",
+  "license": "ISC",
+  "devDependencies": {
+    "from": "^0.1.3",
+    "chai": "^1.9.1",
+    "mocha": "^1.19.0"
+  },
+  "dependencies": {
+    "bluebird": "^1.2.4"
+  }
+}
